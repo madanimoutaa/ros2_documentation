@@ -12,7 +12,7 @@ System requirements
 
 As of beta-2 only Windows 10 is supported.
 
-.. _Foxy_windows-install-binary-installing-prerequisites:
+.. _Rolling_windows-install-binary-installing-prerequisites:
 
 Installing prerequisites
 ------------------------
@@ -147,7 +147,7 @@ RQt dependencies
 
    python -m pip install -U pydot PyQt5
 
-.. _Foxy_windows-install-binary-installing-rqt-dependencies:
+.. _Rolling_windows-install-binary-installing-rqt-dependencies:
 
 To run rqt_graph you need to `download <https://graphviz.gitlab.io/_pages/Download/Download_windows.html>`__ and install `Graphviz <https://graphviz.gitlab.io/>`__.
 
@@ -186,7 +186,7 @@ Start a command shell and source the ROS 2 setup file to set up the workspace:
 
 .. code-block:: bash
 
-   > call C:\dev\ros2_foxy\local_setup.bat
+   > call C:\dev\ros2_rolling\local_setup.bat
 
 It is normal that the previous command, if nothing else went wrong, outputs "The system cannot find the path specified." exactly once.
 
@@ -225,10 +225,10 @@ Uninstall
 ---------
 
 1. If you installed your workspace with colcon as instructed above, "uninstalling" could be just a matter of opening a new terminal and not sourcing the workspace's ``setup`` file.
-   This way, your environment will behave as though there is no Foxy install on your system.
+   This way, your environment will behave as though there is no Rolling install on your system.
 
 2. If you're also trying to free up space, you can delete the entire workspace directory with:
 
    .. code-block:: bash
 
-    rmdir /s /q \ros2_foxy
+    rmdir /s /q \ros2_rolling
