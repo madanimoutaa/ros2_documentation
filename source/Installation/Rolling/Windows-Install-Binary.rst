@@ -166,8 +166,10 @@ To run rqt_graph you need to `download <https://graphviz.gitlab.io/_pages/Downlo
 Downloading ROS 2
 -----------------
 
-* Go the releases page: https://github.com/ros2/ros2/releases
-* Download the latest package for Windows, e.g., ``ros2-foxy-*-windows-AMD64.zip``.
+Binary releases of Rolling Ridley are not provided.
+Instead you may download nightly `prerelease binaries <Prerelease_binaries>`.
+
+* Download the latest package for Windows, e.g., ``ros2-package-windows-AMD64.zip``.
 
 .. note::
 
@@ -175,9 +177,9 @@ Downloading ROS 2
 
 .. note::
 
-    To download the ROS 2 debug libraries you'll need to download ``ros2-foxy-*-windows-debug-AMD64.zip``
+    To download the ROS 2 debug libraries you'll need to download ``ros2-package-windows-debug-AMD64.zip``
 
-* Unpack the zip file somewhere (we'll assume ``C:\dev\ros2_foxy``\ ).
+* Unpack the zip file somewhere (we'll assume ``C:\dev\ros2_rolling``\ ).
 
 Environment setup
 -----------------

@@ -24,9 +24,10 @@ Add the ROS 2 apt repository
 Downloading ROS 2
 -----------------
 
+Binary releases of Rolling Ridley are not provided.
+Instead you may download nightly `prerelease binaries <Prerelease_binaries>`.
 
-* Go `the releases page <https://github.com/ros2/ros2/releases>`_
-* Download the latest package for Linux; let's assume that it ends up at ``~/Downloads/ros2-foxy-linux-x86_64.tar.bz2``.
+* Download the latest package for Linux; let's assume that it ends up at ``~/Downloads/ros2-package-linux-x86_64.tar.bz2``.
 
   * Note: there may be more than one binary download option which might cause the file name to differ.
 
@@ -37,7 +38,7 @@ Downloading ROS 2
 
        mkdir -p ~/ros2_rolling
        cd ~/ros2_rolling
-       tar xf ~/Downloads/ros2-foxy-linux-x86_64.tar.bz2
+       tar xf ~/Downloads/ros2-package-linux-x86_64.tar.bz2
 
 Installing and initializing rosdep
 ----------------------------------

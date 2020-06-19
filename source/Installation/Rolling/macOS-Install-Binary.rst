@@ -121,8 +121,10 @@ So that SIP doesn't prevent processes from inheriting dynamic linker environment
 Downloading ROS 2
 -----------------
 
-* Go to the releases page: https://github.com/ros2/ros2/releases
-* Download the latest package for macOS; let's assume that it ends up at ``~/Downloads/ros2-release-distro-date-macos-amd64.tar.bz2``.
+Binary releases of Rolling Ridley are not provided.
+Instead you may download nightly `prerelease binaries <Prerelease_binaries>`.
+
+* Download the latest package for macOS; let's assume that it ends up at ``~/Downloads/ros2-package-osx-x86_64.tar.bz2``.
 
   * Note: there may be more than one binary download option which might cause the file name to differ.
 
@@ -133,7 +135,7 @@ Downloading ROS 2
 
        mkdir -p ~/ros2_rolling
        cd ~/ros2_rolling
-       tar xf ~/Downloads/ros2-release-distro-date-macos-amd64.tar.bz2
+       tar xf ~/Downloads/ros2-package-osx-x86_64.tar.bz2
 
 Install additional DDS implementations (optional)
 -------------------------------------------------
