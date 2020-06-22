@@ -10,7 +10,7 @@ Building ROS 2 on Linux
 
 System requirements
 -------------------
-Target platforms for Rolling Ridley are
+The current target platforms for Rolling Ridley are
 
 - Tier 1: Ubuntu Linux - Focal Fossa (20.04) 64-bit
 

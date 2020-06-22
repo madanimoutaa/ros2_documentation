@@ -12,7 +12,7 @@ Installing ROS 2 Rolling Ridley
 Binary packages
 ---------------
 
-We provide ROS 2 binary packages for the following platforms:
+We currently provide ROS 2 binary packages for the following platforms:
 
 * Linux (Ubuntu Focal(20.04))
 
