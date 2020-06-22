@@ -13,7 +13,7 @@ System Requirements
 -------------------
 
 We currently support Ubuntu Linux Focal Fossa (20.04) 64-bit x86 and 64-bit ARM.
-The Rolling Ridley distribution will change target platforms from time to time as new platforms become available.
+The Rolling Ridley distribution will change target platforms from time to time as new platforms are selected for development.
 Most people will want to use a stable ROS distribution.
 
 Add the ROS 2 apt repository
